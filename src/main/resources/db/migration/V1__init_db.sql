@@ -1,0 +1,6 @@
+CREATE TABLE users(
+	id INTEGER AUTO_INCREMENT PRIMARY KEY,
+	email VARCHAR,
+	password VARCHAR,
+	salt VARCHAR
+);
